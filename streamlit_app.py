@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Configuration
-FASTAPI_BASE_URL = "http://localhost:8000"  # Assuming your FastAPI app runs on port 8000
+FASTAPI_BASE_URL = "https://library-management-c4vq.onrender.com"  # Assuming your FastAPI app runs on port 8000
 
 st.set_page_config(page_title="Library Management System", layout="centered")
 
